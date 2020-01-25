@@ -1,4 +1,4 @@
-package locks.demo.reentrantwriteread;
+package com.czl.thread.reentrantwriteread;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

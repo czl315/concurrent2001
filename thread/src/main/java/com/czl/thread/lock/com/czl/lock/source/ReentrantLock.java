@@ -33,7 +33,7 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package locks.source;
+package com.czl.thread.lock.com.czl.lock.source;
 
 import java.util.Collection;
 import java.util.concurrent.TimeUnit;

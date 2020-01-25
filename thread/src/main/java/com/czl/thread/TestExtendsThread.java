@@ -1,12 +1,12 @@
-package thread;
+package com.czl.thread;
 
 /**
  * @author one3c-chenzhilong9
- * @Description:
+ * @Description: 萨达
  * @Date 2019/12/10
  * @Time 15:36
  */
-public class TestImplFace {
+public class TestExtendsThread {
 
     public static void main(String[] args) {
         //CzlThread t1 = new CzlThread();
@@ -15,9 +15,13 @@ public class TestImplFace {
         //t2.start();
 
         for (int i = 0; i < 5; i++) {
-            new Thread(new CzlThreadImplFace()).start();
+            new CzlThread().start();
         }
 
+        //CzlThreadImplFace t3 = new CzlThreadImplFace();
+        //CzlThreadImplFace t4 = new CzlThreadImplFace();
+        //new Thread(t3).start();
+        //new Thread(t4).start();
     }
 }
 

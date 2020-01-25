@@ -1,4 +1,4 @@
-package locks.source;
+package com.czl.thread.lock.com.czl.lock.source;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
