@@ -2,23 +2,16 @@ package hashmap;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * czl
  * createTime:2020/1/27
  */
-public class HashMapDemo {
-    static Map map = new HashMap();
+public class ConcurrentHashMapDemo {
+    static ConcurrentHashMap map = new ConcurrentHashMap();
 
     public static void main(String[] args) {
-
-//        Object obj = map.put("akey", "avalue");
-//        if (obj != null) {
-//            System.out.println(obj.toString());
-//        }
-//        Object obj2 = map.put("akey", "avalue222");
-//        System.out.println(obj2.toString());
-
         concurrent(map, 10000);
     }
 
